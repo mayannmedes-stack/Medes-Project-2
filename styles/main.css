@@ -217,3 +217,17 @@ h1 em, h2 em { color: var(--gold); font-style: normal; }
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* FIX: North Star overlap on mobile */
+@media (max-width: 575.98px) {
+  .story-panel__graphic {
+    top: 8% !important;
+  }
+  .story-panel__caption {
+    font-size: 14px !important;
+    line-height: 1.3 !important;
+  }
+  .story-panel__body {
+    padding-top: 40px !important;
+  }
+}
