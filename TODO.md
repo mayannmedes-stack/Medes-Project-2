@@ -13,7 +13,7 @@
   - [x] Avoid inventing official logos, addresses, phone numbers, or claims.
 - [x] Initialize Git in `/home/ubuntu/Medes-project-2`.
   - [x] Make at least 10 meaningful commits documenting page development.
-  - [ ] Create a new GitHub repository rather than reusing Project 1.
-  - [ ] Push the source code to GitHub.
+  - [x] Create a new GitHub repository rather than reusing Project 1.
+  - [x] Push the source code to GitHub.
 - [ ] Enable GitHub Pages from the new repository and verify the published page.
 - [ ] Submit the GitHub repository URL and Pages URL through the assignment Google Form.

@@ -34,7 +34,7 @@ Then open `http://localhost:3001/` in a browser. The page loads Bootstrap and Go
 
 ## GitHub Pages handoff
 
-Create a new repository named `Medes-Project-2` under `mayannmedes-stack`, push the full Git history, and configure Pages to publish from the `main` branch using the repository root or the committed `dist/` folder, depending on the selected GitHub Pages source. The repository URL and final Pages URL should be submitted through the assignment Google Form.
+The new public repository has been created at `https://github.com/mayannmedes-stack/Medes-Project-2` with the full 12-commit history. In the repository, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save. The resulting Pages URL will be `https://mayannmedes-stack.github.io/Medes-Project-2/`; submit both URLs through the assignment Google Form.
 
 ## Official sources
 
