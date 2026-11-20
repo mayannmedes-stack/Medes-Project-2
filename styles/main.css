@@ -37,6 +37,8 @@ img { max-width: 100%; }
 .navbar-nav .nav-link::after { position: absolute; right: 0; bottom: .2rem; left: 0; height: 2px; background: var(--gold); content: ""; transform: scaleX(0); transform-origin: right; transition: transform .2s ease; }
 .navbar-nav .nav-link:hover::after, .navbar-nav .nav-link:focus-visible::after { transform: scaleX(1); transform-origin: left; }
 .btn { border-radius: 0; border-width: 1px; font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.btn:focus-visible, .navbar-toggler:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; box-shadow: none; }
+.navbar-toggler { border-color: rgba(16,42,86,.25); border-radius: 0; }
 .btn-brand { padding: .75rem 1rem; color: var(--white); background: var(--blue); border-color: var(--blue); }
 .btn-brand:hover, .btn-brand:focus-visible { color: var(--ink); background: var(--gold); border-color: var(--gold); transform: translateY(-2px); }
 .btn-gold { padding: .95rem 1.2rem; color: var(--ink); background: var(--gold); border-color: var(--gold); }
