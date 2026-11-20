@@ -43,3 +43,7 @@ Create a new repository named `Medes-Project-2` under `mayannmedes-stack`, push 
 - [College Programs](https://kcc.edu.ph/programs)
 - [Admissions](https://kcc.edu.ph/admissions)
 - [Contact KCC](https://kcc.edu.ph/contact)
+
+## Local validation
+
+The page was checked with a local static server. The homepage, route manifest, and official logo each returned HTTP 200, all 12 internal anchor links resolved to page IDs, and the committed `dist/` output was confirmed to contain the page, stylesheet, logo, and route manifest.
