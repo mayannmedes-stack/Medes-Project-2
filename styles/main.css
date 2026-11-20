@@ -210,3 +210,10 @@ h1 em, h2 em { color: var(--gold); font-style: normal; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
+.hero-section {
+  background-image: linear-gradient(rgba(8, 27, 61, 0.82), rgba(8, 27, 61, 0.82)), url('../assets/1795166021779.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
